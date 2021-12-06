@@ -1,7 +1,12 @@
 /* @import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css); */
 @font-face {
 	font-family: "Nanum Gothic";
-	src: url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+	font-style: normal;
+	font-weight: 400;
+	src: url(/static_fonts/NanumGothic-Regular.eot),
+		url(/static_fonts/NanumGothic-Regular.woff2) format("woff2"),
+		url(/static_fonts/NanumGothic-Regular.woff) format("woff"),
+		url(/static_fonts/NanumGothic-Regular.ttf) format("truetype");
 }
 
 .hidden {
