@@ -15,7 +15,7 @@
 
 .selected {
 	border-color: rgb(23, 148, 197);
-	border: 3px;
+	border: 4px;
 }
 
 body {
@@ -197,22 +197,28 @@ h1 {
 
 #netflixButton:hover {
 	transform: scale(1.04);
+	transition-duration: 0.3s;
 	border-color: #e41e1b;
 }
 #watchaButton:hover {
 	transform: scale(1.04);
+	transition-duration: 0.3s;
 	border-color: #ff0459;
 }
 #wavveButton:hover {
 	transform: scale(1.04);
+	transition-duration: 0.3s;
 	border-color: #0052ff;
 }
 #tvingButton:hover {
 	transform: scale(1.04);
+	transition-duration: 0.3s;
 	border-color: #ff133d;
+	transition-duration: 0.3s;
 }
 #disneyButton:hover {
 	transform: scale(1.04);
+	transition-duration: 0.3s;
 	border-color: #086eaf;
 }
 
