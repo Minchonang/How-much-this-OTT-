@@ -163,13 +163,13 @@ h1 {
 	color: #086eaf;
 }
 
-.netflixHome:active,
+/* .netflixHome:active,
 .watchaHome:active,
 .wavveHome:active,
 .tvingHome:active,
 .disneyHome:active {
 	transform: scale(0.99);
-}
+} */
 
 #OTT_list {
 	display: flex;
@@ -188,47 +188,38 @@ h1 {
 	font-weight: bold;
 	margin-left: 10px;
 	margin-right: 10px;
-	padding: 18px 25px 18px 25px;
+	padding: 18px 25px;
 	cursor: pointer;
 	border-style: solid;
 	border-radius: 20px;
 	box-shadow: 0 4px 6px rgba(50, 50, 93, 0.21), 0 1px 3px rgba(0, 0, 0, 0.2);
+	transition-duration: 0.3s;
+	transform: scale(1.04);
 }
 
 #netflixButton:hover {
-	transform: scale(1.04);
-	transition-duration: 0.3s;
 	border-color: #e41e1b;
 }
 #watchaButton:hover {
-	transform: scale(1.04);
-	transition-duration: 0.3s;
 	border-color: #ff0459;
 }
 #wavveButton:hover {
-	transform: scale(1.04);
-	transition-duration: 0.3s;
 	border-color: #0052ff;
 }
 #tvingButton:hover {
-	transform: scale(1.04);
-	transition-duration: 0.3s;
 	border-color: #ff133d;
-	transition-duration: 0.3s;
 }
 #disneyButton:hover {
-	transform: scale(1.04);
-	transition-duration: 0.3s;
 	border-color: #086eaf;
 }
 
-#netflixButton:active,
+/* #netflixButton:active,
 #watchaButton:active,
 #tvingButton:active,
 #wavveButton:active,
 #disneyButton:active {
 	transform: scale(0.99);
-}
+} */
 
 #table {
 	margin: 50px;
